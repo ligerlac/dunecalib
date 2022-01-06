@@ -16,8 +16,8 @@
 #include "art/Framework/Services/Registry/ServiceMacros.h"
 #include "art/Framework/Principal/Run.h"
 #include "art/Framework/Principal/Event.h"
-#include "dune/Calib/LifetimeCalibProtoDUNE.h"
-#include "dune/CalibServices/LifetimeCalibService.h"
+#include "dunecalib/Calib/LifetimeCalibProtoDUNE.h"
+#include "dunecalib/CalibServices/LifetimeCalibService.h"
 
 namespace calib{
   class LifetimeCalibServiceProtoDUNE : public LifetimeCalibService {

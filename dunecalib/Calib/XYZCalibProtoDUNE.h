@@ -23,7 +23,7 @@
 #include <map>
 
 // dunetpc includes
-#include "dune/Calib/XYZCalib.h"
+#include "dunecalib/Calib/XYZCalib.h"
 
 namespace calib {
 

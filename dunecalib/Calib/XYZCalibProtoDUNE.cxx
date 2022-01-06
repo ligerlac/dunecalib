@@ -16,7 +16,7 @@
 #include "stdio.h"
 
 // LArSoft includes
-#include "dune/Calib/XYZCalibProtoDUNE.h"
+#include "dunecalib/Calib/XYZCalibProtoDUNE.h"
 
 // nutools includes
 #include "nuevdb/IFDatabase/Table.h"

@@ -6,7 +6,7 @@ cet_find_library( WDALIB NAMES wda PATHS ENV LIBWDA_LIB NO_DEFAULT_PATH )
 
 FILE (GLOB src_files *.cxx)
 
-art_make_library(  LIBRARY_NAME  dune_Calib
+art_make_library(  LIBRARY_NAME  dunecalib_Calib
 		        SOURCE ${src_files}
 			LIBRARIES
 	                wda
@@ -21,13 +21,13 @@ art_make_library(  LIBRARY_NAME  dune_Calib
 art_make_exec( NAME getXYZCalibProtoDUNE
                SOURCE getXYZCalibProtoDUNE.cc                 
                LIBRARIES
-			dune_Calib
+			dunecalib_Calib
                )
 
 art_make_exec( NAME getLinConstsProtoDUNE
                SOURCE getLinConstsProtoDUNE.cc                 
                LIBRARIES
-			dune_Calib
+			dunecalib_Calib
                )
 
 install_headers()

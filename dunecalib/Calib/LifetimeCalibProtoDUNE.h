@@ -24,7 +24,7 @@
 #include <map>
 
 // dunetpc includes
-#include "dune/Calib/LifetimeCalib.h"
+#include "dunecalib/Calib/LifetimeCalib.h"
 
 namespace calib {
 

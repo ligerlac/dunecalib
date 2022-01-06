@@ -1,4 +1,4 @@
-#include "dune/Calib/XYZCalibProtoDUNE.h"
+#include "dunecalib/Calib/XYZCalibProtoDUNE.h"
 
 #include "nuevdb/IFDatabase/Table.h"
 #include <getopt.h>

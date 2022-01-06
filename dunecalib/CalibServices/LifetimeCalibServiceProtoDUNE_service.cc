@@ -14,7 +14,7 @@
 #include "TTimeStamp.h"
 
 // LArSoft includes
-#include "dune/CalibServices/LifetimeCalibServiceProtoDUNE.h"
+#include "dunecalib/CalibServices/LifetimeCalibServiceProtoDUNE.h"
 
 // Framework includes
 #include "art/Framework/Services/Registry/ServiceDefinitionMacros.h"

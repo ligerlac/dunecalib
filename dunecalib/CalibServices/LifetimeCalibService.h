@@ -12,7 +12,7 @@
 
 #include "fhiclcpp/ParameterSet.h"
 #include "art/Framework/Services/Registry/ServiceMacros.h"
-#include "dune/Calib/LifetimeCalib.h"
+#include "dunecalib/Calib/LifetimeCalib.h"
 #include "larcore/CoreUtils/ServiceUtil.h"
 
 namespace calib{

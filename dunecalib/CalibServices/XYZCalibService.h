@@ -11,7 +11,7 @@
 
 #include "fhiclcpp/ParameterSet.h"
 #include "art/Framework/Services/Registry/ServiceMacros.h"
-#include "dune/Calib/XYZCalib.h"
+#include "dunecalib/Calib/XYZCalib.h"
 #include "larcore/CoreUtils/ServiceUtil.h"
 
 namespace calib{

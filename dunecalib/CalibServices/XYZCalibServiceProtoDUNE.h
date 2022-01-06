@@ -14,8 +14,8 @@
 #include "art/Framework/Services/Registry/ServiceHandle.h"
 #include "art/Framework/Services/Registry/ServiceMacros.h"
 #include "art/Framework/Principal/Run.h"
-#include "dune/Calib/XYZCalibProtoDUNE.h"
-#include "dune/CalibServices/XYZCalibService.h"
+#include "dunecalib/Calib/XYZCalibProtoDUNE.h"
+#include "dunecalib/CalibServices/XYZCalibService.h"
 
 namespace calib{
   class XYZCalibServiceProtoDUNE : public XYZCalibService {

@@ -18,7 +18,7 @@
 #include <iomanip> 
 
 // LArSoft includes
-#include "dune/Calib/LifetimeCalibProtoDUNE.h"
+#include "dunecalib/Calib/LifetimeCalibProtoDUNE.h"
 
 // nutools includes
 #include "nuevdb/IFDatabase/Table.h"

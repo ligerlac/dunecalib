@@ -11,7 +11,7 @@
 #include <iostream>
 
 // LArSoft includes
-#include "dune/CalibServices/XYZCalibServiceProtoDUNE.h"
+#include "dunecalib/CalibServices/XYZCalibServiceProtoDUNE.h"
 
 // Framework includes
 #include "art/Framework/Services/Registry/ServiceDefinitionMacros.h"

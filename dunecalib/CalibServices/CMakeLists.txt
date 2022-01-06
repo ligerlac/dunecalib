@@ -1,5 +1,5 @@
 cet_build_plugin(XYZCalibServiceProtoDUNE art::service
-              dune_Calib
+              dunecalib_Calib
 	      ART_FRAMEWORK_CORE
 	      ART_FRAMEWORK_PRINCIPAL
 	      ART_FRAMEWORK_SERVICES_REGISTRY
@@ -18,7 +18,7 @@ cet_build_plugin(XYZCalibServiceProtoDUNE art::service
 )
 
 cet_build_plugin(LifetimeCalibServiceProtoDUNE art::service
-      dune_Calib
+      dunecalib_Calib
       ART_FRAMEWORK_CORE
       ART_FRAMEWORK_PRINCIPAL
       ART_FRAMEWORK_SERVICES_REGISTRY
