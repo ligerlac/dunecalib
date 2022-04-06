@@ -6,12 +6,13 @@ cet_find_library( WDALIB NAMES wda PATHS ENV LIBWDA_LIB NO_DEFAULT_PATH )
 
 FILE (GLOB src_files *.cxx)
 
-art_make_library(  LIBRARY_NAME  dunecalib_Calib
+art_make_library(  LIBRARY_NAME  dunecalib::Calib
 		        SOURCE ${src_files}
 			LIBRARIES
 	                wda
 	                nuevdb::IFDatabase
-                        cetlib::cetlib cetlib_except
+                        cetlib::cetlib 
+			cetlib_except::cetlib_except
                         messagefacility::MF_MessageLogger
 			fhiclcpp::fhiclcpp
                         ROOT_BASIC_LIB_LIST
@@ -21,13 +22,13 @@ art_make_library(  LIBRARY_NAME  dunecalib_Calib
 art_make_exec( NAME getXYZCalibProtoDUNE
                SOURCE getXYZCalibProtoDUNE.cc                 
                LIBRARIES
-			dunecalib_Calib
+			dunecalib::Calib
                )
 
 art_make_exec( NAME getLinConstsProtoDUNE
                SOURCE getLinConstsProtoDUNE.cc                 
                LIBRARIES
-			dunecalib_Calib
+			dunecalib::Calib
                )
 
 install_headers()
