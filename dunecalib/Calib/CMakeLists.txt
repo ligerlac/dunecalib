@@ -1,15 +1,10 @@
-include_directories ( ${CMAKE_CURRENT_SOURCE_DIR} )
-include_directories ( $ENV{NUTOOLS_DIR}/include )
-include_directories( $ENV{LIBWDA_FQ_DIR}/include )
-#SET(ENV{LIBWDA_LIB} "$ENV{LIBWDA_DIR}/lib")
-cet_find_library( WDALIB NAMES wda PATHS ENV LIBWDA_LIB NO_DEFAULT_PATH )
 
 FILE (GLOB src_files *.cxx)
 
 art_make_library(  LIBRARY_NAME  dunecalib::Calib
 		        SOURCE ${src_files}
 			LIBRARIES
-	                wda
+	                wda::wda
 	                nuevdb::IFDatabase
                         cetlib::cetlib 
 			cetlib_except::cetlib_except
