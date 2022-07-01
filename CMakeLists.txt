@@ -6,7 +6,7 @@
 cmake_minimum_required (VERSION 3.19 FATAL_ERROR)
 
 project(dunecalib LANGUAGES CXX)
-set(${PROJECT_NAME}_CMAKE_PROJECT_VERSION_STRING 09.53.02d00)
+set(${PROJECT_NAME}_CMAKE_PROJECT_VERSION_STRING 09.54.00d00)
 
 # cetbuildtools contains our cmake modules
 find_package(cetbuildtools REQUIRED)
@@ -35,6 +35,7 @@ find_ups_product( cetbuildtools )
 find_ups_product( larcore )
 find_ups_product( larcorealg )
 find_ups_product( nuevdb )
+find_ups_product( libwda )
 find_ups_geant4( )
 
 # macros for artdaq_dictionary and simple_plugin
